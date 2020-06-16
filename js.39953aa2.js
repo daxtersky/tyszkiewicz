@@ -5,3 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"mahc":[function(require,module,exports) {
 "use strict";var e=n(require("./greeting"));function n(e){return e&&e.__esModule?e:{default:e}}require("../sass/main.scss"),document.addEventListener("DOMContentLoaded",function(){});
 },{"./greeting":"bMLh","../sass/main.scss":"O78K"}]},{},["mahc"], null)
+//# sourceMappingURL=https://github.com/daxtersky/daxtersky.github.io/tyszkiewicz/js.39953aa2.js.map
