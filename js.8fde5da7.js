@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"mahc":[function(require,module,exports) {
 "use strict";var e=t(require("./greeting"));function t(e){return e&&e.__esModule?e:{default:e}}require("../sass/main.scss"),document.addEventListener("DOMContentLoaded",function(){document.querySelector("h1").textContent=e.default.greet(),document.querySelector("p").textContent=e.default.greet2()});
 },{"./greeting":"bMLh","../sass/main.scss":"O78K"}]},{},["mahc"], null)
-//# sourceMappingURL=/js.8fde5da7.js.map
+//# sourceMappingURL=https://daxtersky.github.io/tyszkiewicz/js.8fde5da7.js.map
