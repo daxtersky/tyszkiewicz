@@ -1,36 +1,77 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl-PL">
 
 <head>
   <meta charset="utf-8">
-  <title>Project boilerplate</title>
-  <meta name="description" content="Empty project bundled by Parcel">
+  <title>Tyszkiewicz ubezpieczenia</title>
+  <meta name="description" content="Tyszkiewicz ubezpieczenia">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-logo.png">
 
   <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
 
   <div class="container">
-    <!-- <h1></h1>
-    <p></p> -->
-    <img src="./assets/logo.png" alt="Website logo">
-    <!-- <div>
-      <ion-icon name="logo-html5" size="large"></ion-icon>
-      <ion-icon name="logo-sass" size="large"></ion-icon>
-      <ion-icon name="logo-javascript" size="large"></ion-icon>
-    </div> -->
-  </div>
+    <section class="logo">
+      <img height="400" src="./assets/logo.png" alt="Website logo">
+    </section>
+    <section class="partners">
+      <ion-icon name="logo-facebook" size="large"></ion-icon>
+      <ion-icon name="logo-vk" size="large"></ion-icon>
+      <ion-icon name="logo-github" size="large"></ion-icon>
+      <ion-icon name="logo-linkedin" size="large"></ion-icon>
+    </section>
+    <section class="form-container">
+      <form id="form">
+        <p class="div1">Skontaktuj się ze mną</p>
+        <label class="div2" for="name">Telefon:</label>
+        <input class="div3" type="text" id="name" name="phone">
+        <label class="div4" for="mail">E-mail:</label>
+        <input class="div5" type="email" id="mail" name="email">
+        <label class="div6" for="msg">Wiadomość:</label>
+        <textarea class="div7" id="msg" name="message"></textarea>
+       </form>
+    </section>
+      <section class="content">
+        <section class="paragraph one">
+          <p>Zastanawiasz się kim jest multiagent ubezpieczeniowy?</p>
+          <p>Napiszę krótko i zwięźle.</p>
+          <p>Praca multiagenta polega przede wszystkim na edukowaniu i uświadamianiu ludzi o określonych zagrożeniach.</p>
+          <!-- <div class="arrow bounce"></div> -->
+        </section>
+        <section class="paragraph two">
+          <p>Dobry agent musi być zatem ekspertem i partnerem bowiem klient oczekuje, że agent spotykając się z nim przedstawi mu rozwiązanie, które będzie dla niego korzystne</p>
+          <p>Na podstawie informacji, bezpośrednio uzyskanych od klienta, dopasuje ubezpieczenie którego potrzebujesz.</p>
+          <p>Znajdzie dla Ciebie optymalne rowiązania ubezpeczeniowe, z towarzystw ubezpieczeniowych z którymi współpracuje, dopasowując je do jego potrzeb i budżetu, który chcesz przeznaczyć na dany cel.</p>
+          <p>Nie będzie Tobie „wciskał” czegoś na siłę czy szukał najdroższych rozwiązań ( czym jest zobligowany prawnie )</p>
+          <p>Nie dolicza swojej marży/prowizji!!!</p>
+        </section>
+        <section class="paragraph three">
+          <p>Ubezpieczenia którymi się zamuję:</p>
+          <ul class="points">
+            <li>Komunikacyne ( OC/AC )</li>
+            <li>Życiowe ( Emerytury, polisy życiowe, firmowe)</li>
+            <li>Majątkowe ( Mieszkania, firmy, oc zawodowe, transport )</li>
+            <li>Ubezpieczenia Finansowe ( dla dużego biznesu , związane z zabezpieczeniem przetargów)</li>
+          </ul>
+
+          <p>Współpracuję z : Ergo Hestia, Uniqa, PZU, Warta, Compens, Link4.</p>
+          <p>Branża ubezpieczeniowa jest dynamiczna i część jej ofert szybko się zmienia, dlatego na swojej stronie będę się starał na bieżąco umieszczać nowe rozwiązania ubezpieczeniowe.</p>
+          <p>www.tyszkiewicz.eu</p>
+
+          <p>Praca agenta polega przede wszystkim na edukowaniu i uświadamianiu ludzi o określonych zagrożeniach.</p>
+          <p>Dobry agent musi być zatem ekspertem i partnerem bowiem klient oczekuje, że agent spotykając się z nim przedstawi mu rozwiązanie, które będzie dla niego najkorzystniejsze.</p>
+        </section>
+      </section>
+
+    </div>
 
   <script src="./src/js/index.js"></script>
-
 </body>
 
 </html>
